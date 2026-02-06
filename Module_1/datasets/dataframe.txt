@@ -1,0 +1,18 @@
+<class 'pandas.core.frame.DataFrame'>
+RangeIndex: 5008 entries, 0 to 5007
+Data columns (total 11 columns):
+ #   Column            Non-Null Count  Dtype
+---  ------            --------------  -----
+ 0   order_id          5008 non-null   int64
+ 1   order_date        5000 non-null   object
+ 2   customer_id       5008 non-null   int64
+ 3   product_category  5008 non-null   object
+ 4   price             5008 non-null   int64
+ 5   quantity          5008 non-null   int64
+ 6   order_value       5008 non-null   int64
+ 7   payment_method    5008 non-null   object
+ 8   city              4908 non-null   object
+ 9   state             4908 non-null   object
+ 10  customer_age      4858 non-null   float64
+dtypes: float64(1), int64(5), object(5)
+memory usage: 430.5+ KB
